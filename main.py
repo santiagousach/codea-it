@@ -1,11 +1,16 @@
-import requests as r
+import requests 
 import json
 
-f = open('api.json')
+token = "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"
 
-data = json.load(f)
+#https://github.com/santiagousach/codea-it/blob/master/api.json
+url = 'https://raw.githubusercontent.com/santiagousach/codea-it/master/api.json'
 
 
-x = r.text('api.json')
+r = requests.get(url)
 
-print(x)
+apis = r.json()
+
+
+for i in apis[]:
+    print(i)
