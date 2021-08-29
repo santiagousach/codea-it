@@ -1,0 +1,17 @@
+[{
+    "API1": 
+    {"deductible": "1000", 
+    "stop_loss": "10000", 
+    "oop_max": "5000"},
+
+    "API2": 
+    {"deductible": "1200",
+     "stop_loss": "13000", 
+     "oop_max": "6000"},
+
+
+    "API3": 
+    {"deductible": "1000", 
+    "stop_loss": "10000", 
+    "oop_max": "6000"}
+}]
